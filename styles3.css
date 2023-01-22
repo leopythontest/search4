@@ -22,16 +22,26 @@ body {
 .google_logo{
     margin: 0 auto;
 }
-
-.box {
-
-    margin : 20px;
-    height:44px;
-    width: 40%;
-    flex: 100%;
-    border-radius: 25px;
-    padding: 20px;
+@media (min-width: 1000px) {
+    .box {
+        margin : 20px;
+        height:44px;
+        width: 40%;
+        flex: 100%;
+        border-radius: 25px;
+        padding: 20px;
+    }
 }
+@media (max-width: 999px) {
+    .box {
+        margin : 20px;
+        height:44px;
+        width: 80%;
+        flex: 100%;
+        border-radius: 25px;
+        padding: 20px;
+    }
+} 
 .box:hover {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12),0 10px 10px 0 rgba(0,0,0,0.10);
   }  

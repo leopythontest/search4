@@ -7,12 +7,17 @@ body {
 
 
 .link {
+
     margin-left:5px;
 }
 
 .container{
     margin-top: 78px;
     text-align: center;
+}
+
+.container2 { 
+    margin-top: 50px;
 }
 .google_logo{
     margin: 0 auto;
@@ -37,12 +42,13 @@ body {
     .box {
         margin :  20px 0 20px 0;
         height:44px;
-        width: 90%;
+        width: 92%;
         flex: 100%;
         border-radius: 25px;
         padding: 20px;
     }
     .anchor {
+
         text-align: center;
         font-family: Arial, sans-serif; 
         margin-bottom: 10px; 
@@ -98,29 +104,21 @@ body {
 }
 
 .adv_box {
-
     width: 300px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
 }
 
 .fm{
     position:relative;
-
-
 }
 
 .adv_button {
-
     background-color: rgb(48,121,237);
     color: white;
-
-
 }
 
 .adv_button:hover {
     background-color: rgb(38, 100, 198);
-
   }  
 
 
